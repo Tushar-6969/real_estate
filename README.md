@@ -13,6 +13,16 @@ A polished local Real Estate CRM application built with the MERN stack. This rep
 - Dashboard analytics for leads, deals, clients, properties, and commissions
 - Local-first development with no cloud provider dependency required
 
+
+
+
+demo login details:
+username:  demo@realestate.com
+password:  demo@1234
+
+
+
+
 ## Screenshot Preview
 
 Below are sample application views from the `screenshots/` folder.
