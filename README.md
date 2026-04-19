@@ -2,6 +2,9 @@
 
 A polished local Real Estate CRM application built with the MERN stack. This repository delivers a CRM experience for real estate professionals, with clean full-stack architecture, lead and property workflows, client management, deal tracking, and insightful reporting.
 
+## 🚀 Live Demo: (https://real-estate-1-jick.onrender.com/)
+
+
 ## Highlights
 
 - Fully functional MERN architecture with separate backend API and frontend UI
@@ -40,6 +43,68 @@ Below are sample application views from the `screenshots/` folder.
 - `backend/` - Express server, MongoDB models, authentication middleware, and REST API routes
 - `frontend/` - React + Vite application with responsive UI, forms, and dashboard views
 - `screenshots/` - Project screenshots used in this README
+
+
+## 📡 API Documentation
+
+
+
+
+
+Frontend: https://real-estate-1-jick.onrender.com/
+Backend API: https://real-estate-vdi5.onrender.com/
+------------------------------------------------------------------------
+
+### 🔐 Auth
+
+POST /auth/register\
+POST /auth/login\
+GET /auth/users\
+POST /auth/preferences/email-notifications
+
+------------------------------------------------------------------------
+
+### 📊 Leads
+
+GET /leads\
+POST /leads\
+POST /leads/:id/status\
+POST /leads/:id/follow-up\
+POST /leads/:id/reminder\
+POST /leads/:id/reminder/:reminderId/complete\
+GET /leads/reminders/notifications
+
+------------------------------------------------------------------------
+
+### 🏠 Properties
+
+GET /properties\
+POST /properties
+
+------------------------------------------------------------------------
+
+### 👤 Clients
+
+GET /clients\
+POST /clients
+
+------------------------------------------------------------------------
+
+### 💰 Deals
+
+GET /deals\
+POST /deals
+
+------------------------------------------------------------------------
+
+### 📈 Reports
+
+GET /reports/summary
+
+------------------------------------------------------------------------
+
+
+
 
 ## Local Development
 
