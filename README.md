@@ -2,7 +2,7 @@
 
 A polished local Real Estate CRM application built with the MERN stack. This repository delivers a CRM experience for real estate professionals, with clean full-stack architecture, lead and property workflows, client management, deal tracking, and insightful reporting.
 
-## 🚀 Live Demo: (https://real-estate-1-jick.onrender.com/)
+## 🚀 Live Demo: https://real-estate-1-jick.onrender.com/
 
 
 ## Highlights
